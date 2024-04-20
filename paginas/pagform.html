@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styleform.css"/>
+    <title>Formulario</title>
+</head>
+<body id="body">
+  <header>
+  <div class="logo">
+  <img src="../imagens/logo.png" alt="Logo do site" width="65px">
+  </div>
+
+<nav>
+  <ul>
+    <li><a href="../index.html">Página Inicial</a></li>
+    <li><a href="../paginas/pagform.html">Formulario</a></li>
+    <li><a href="../paginas/pagina1.html">Lista</a></li>
+    <li><a href="../paginas/pagina2.html">Rockstar</a></li>
+    <li><a href="../paginas/pagina3.html">Texto</a></li>
+  </ul>
+</nav>
+</header>
+
+    <form action="#">
+<fieldset class="fieldset">
+  <h2>Formulário</h2>
+
+    <br/>
+      <fieldset>
+          <legend><strong> <c>Dados Pessoais</c> </strong></legend>
+        
+        <label><b>Nome:</b> <input type="text" name="nome" placeholder="Insira o nome completo" size="40" required/></label>
+
+        <label><b>Data de Nascimento:</b> <input type="date" name="datanasc" required/></label>
+
+        <br/>
+        <br/>
+        <b>Selecione um genero:</b>
+        <input type="radio" name="genero" value="1"/> <b>Feminino</b>
+        <input type="radio" name="genero" value="2"/> <b>Masculino</b>
+        <input type="radio" name="genero" value="3"/> <b>Outros</b>
+
+    </fieldset>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <section class="galeria">
+      <div class="alinhar">
+      <div class="imagem">
+          <img src="../imagens/logoxbox.jpg" alt="Descrição da Imagem 3">
+          <p>O Xbox é um console de vídeo game produzido pela Microsoft. Foi lançado em 15 de novembro de 2001 na América do Norte, 22 de fevereiro de 2002 no Japão, e 14 de Março de 2002 na Austrália e Europa. Foi a primeira incursão da Microsoft no mercado de vídeo games.</p>
+      </div>
+
+      <div class="imagem">
+          <img src="../imagens/logosonyps.jpg" alt="Descrição da Imagem 4">
+          <p>A idéia da marca surgiu em 1988, quando a Sony tentou se unir a multinacional Nintendo para fazer uma série de discos, chamados de "Super Disc". Esses discos liam o console da quarta geração Super Famicom (conhecido como Super Nintendo Entertainment System no resto do mundo), mas foram um fracasso comercial.</p>
+      </div>
+    </div>
+   </section>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>    
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+  
+
+    <fieldset>
+      <legend><strong><c>Opções</c></strong></legend>
+
+        <p><b><c>1-</c> Qual genero de jogo você gosta?</b></p>
+        <select name="generojogo_html" required>
+          <option value="" selected disabled>Selecione...</option>
+          <option value="Ação">Ação</option>
+          <option value="Aventura">Aventura</option>
+          <option value="RPG">RPG</option>
+          <option value="Simulação">Simulação</option>
+          <option value="Puzzle">Puzzle</option>
+          <option value="Esporte">Esporte</option>
+          <option value="Estrategia">Estrategia</option>
+
+        </select>
+
+
+        <p><b><c>2-</c> Com que frequência você joga?</b></p>
+        <input type="checkbox" name="tempo"/>
+        <a>Diariamente</a>
+
+        <input type="checkbox" name="tempo"/>
+        <a>Algumas vezes por semana</a>
+        
+        <input type="checkbox" name="tempo"/>
+        <a>Alguamas vezes por mês</a>
+        
+        <input type="checkbox" name="tempo"/>
+        <a>Poucas vezes por ano</a>
+      </p>
+
+      <p><b><c>3-</c> Que tipo de jogo você prefere?</b></p>
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos para PC</a>
+
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos de Console</a>
+        
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos Portáteis</a>
+      </p>
+
+      <p><b><c>4-</c> Qual(is) plantaforma(s) de venda de jogos você usa?</b></p>
+      <input type="checkbox" name="plantaformadejogo"/>
+      <a>Steam</a>
+
+      <input type="checkbox" name="plantaformadejogo"/>
+      <a>Epic Games</a>
+      
+      <input type="checkbox" name="plantaformadejogo"/>
+      <a>Xbox</a>
+    </p>
+    
+    <p><b><c>5-</c> Qual turno você mais joga?</b></p>
+    <input type="checkbox" name="turno"/>
+    <a>Manhâ</a>
+
+    <input type="checkbox" name="turno"/>
+    <a>Tarde</a>
+    
+    <input type="checkbox" name="turno"/>
+    <a>Noite</a>
+
+    <input type="checkbox" name="turno"/>
+    <a>Madrugada</a>
+  </p>
+
+      
+      <p><b><c>6-</c> Xbox ou Playstation?</b></p>
+        <input type="radio" name="console" value="1"/><b>Xbox</b>
+        <input type="radio" name="console" value="2"/><b>Playstation</b>
+        <input type="radio" name="console" value="3"/><b>Não tenho preferencia</b>
+
+        <p><b><c>7-</c> Qual tipo de midia de jogo você prefere?</b></p>
+        <input type="radio" name="midia" value="1"/><b>Midia Fisica</b>
+        <input type="radio" name="midia" value="2"/><b>Midia Digital</b>
+        <input type="radio" name="midia" value="3"/><b>Não tenho preferencia</b>
+
+        <p><b><c>8-</c> Qual genero de personagem você escolhe nos jogos quando tem opção?</b></p>
+        <input type="radio" name="genero_personagem" value="1"/><b>Masculino</b>
+        <input type="radio" name="genero_personagem" value="2"/><b>Feminino</b>
+      </fieldset>
+      <br/>
+
+      <fieldset>
+      <legend><strong> <c>Mensagem </c></strong></legend>
+        <p><b><c>9-</c> Quais jogos você mais joga com frequencia?</b></p>
+        <textarea rows="4" cols="30 " required></textarea>
+
+        <p><b><c>10-</c> Indique jogos</b></p>
+        <textarea rows="4" cols="30 " required></textarea>
+      <br/>
+
+        <p><b><c>11-</c> Oque atrai sua atenção no jogo?</b></p>
+        <textarea rows="4" cols="30 " required></textarea>
+      <br/>
+
+      <p><b><c>12-</c> Oque não pode faltar no jogo?</b></p>
+      <textarea rows="4" cols="30 " required></textarea>
+    <br/>
+
+    <p><b><c>13-</c> Qual(is) jogo(s) merece um remake?</b></p>
+    <textarea rows="4" cols="30 " required></textarea>
+    <br/>
+
+    <p><b><c>14-</c> Qual(is) jogo(s) merece uma atenção maior para correção de problemas?</b></p>
+    <textarea rows="4" cols="30 " required></textarea>
+    <br/>
+
+    <p><b><c>15-</c> Qual(is) jogo(s) te decepcionou?</b></p>
+    <textarea rows="4" cols="30 " required></textarea>
+  <br/>
+  
+      </fieldset> 
+
+      <p><b>Email:</b> <input type="email" name="email" required/></p>
+
+      <br/>
+      <input type="reset" name="reset" required/>
+      <input type="submit" name="Enviar" required/>
+      <br/>
+      
+</fieldset> 
+</form>
+
+<footer class="rodape">
+  <div class="rodape-div">
+  <!-- Coluna 1 -->
+      <div class="rodape-div-1">
+          <div>
+            <span>Menu</span>
+            <p>Pagina Inicial</p>
+            <p>Formulario</p>
+            <p>Lista</p>
+            <p>Rockstar</p>
+      </div>
+      </div>
+  <!-- Coluna 2 -->
+      <div class="rodape-div-2">
+          <div>
+          <span>CONTATOS</span>
+      </div>
+      </div>
+  <!-- Coluna 3 -->
+      <div class="rodape-div-3">
+          <div>
+          <span>SUGESTÕES</span>
+      </div>
+      </div>
+  <!-- Coluna 4 -->
+      <div class="rodape-div-4">
+          <div>
+          <span>SOBRE</span>
+      </div>
+      </div>
+
+</div>
+<p class="rodape-copy">Termos de uso reservado. 
+  Copyright &copy;</p>
+</footer>      
+        
+</body>
+</html>
